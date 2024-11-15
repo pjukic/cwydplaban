@@ -1,0 +1,31 @@
+# Core dependencies
+faiss-cpu==1.7.3
+langchain==0.0.252
+chainlit==0.4.1
+chromadb==0.3.25
+langchain-ollama==0.0.1
+
+# Embedding and Vector Store Libraries
+langchain-community==0.1.5  # For GPT4AllEmbeddings, Milvus, Chroma, etc.
+pymilvus==2.2.10           # For Milvus integration
+sentence-transformers==2.2.2  # For embedding models if needed
+
+# Document Loaders and Processing
+PyPDF2==3.0.0
+unstructured==0.7.0
+beautifulsoup4==4.12.2
+html5lib==1.1
+
+# General Utilities
+uvicorn==0.22.0           # For running FastAPI if required
+python-dotenv==1.0.0      # For environment variable handling
+loguru==0.7.0             # Alternative to logging, optional
+
+# For debugging and monitoring
+langsmith==0.0.15
+rich==13.5.2              # For better CLI visuals
+
+# Additional NLP-related dependencies
+nltk==3.8.1
+transformers==4.34.0
+torch==2.0.1+cpu          # PyTorch for CPU (change to GPU version if needed)
